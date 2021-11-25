@@ -1,0 +1,128 @@
+.btn {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 25px solid #9c1f16;
+  background-size: 50%;
+  background-color: white;
+  font-size: 7rem;
+  color: #9c1f16;
+}
+
+.resultBtn {
+  display: flex;
+  align-items: center;
+}
+
+.resultText {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.playAgain {
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #a5231a;
+}
+
+.rock {
+  background-color: #fff;
+  background-image: url(../../rock.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #dc2e4e;
+  margin-left: 1rem;
+}
+
+.paper {
+  background-color: #fff;
+  background-image: url(../../paper.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #4865f4;
+  margin-left: 1rem;
+}
+.scissors {
+  background-color: #fff;
+  background-image: url(../../scissors.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #ec9e0e;
+  margin-left: 1rem;
+}
+
+.housePicked {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.winner {
+  box-shadow: inset 0 5px 6px grey, 0 8px #e1e1e100,
+    0 0 0 50px hsl(0deg 0% 100% / 7%), 0 0 0 100px hsl(0deg 0% 100% / 5%),
+    0 0 0 150px hsl(0deg 0% 100% / 3%);
+}
+
+.game {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+/* game.js */
+
+/* .btn {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 25px solid;
+  background-size: 50%;
+  margin-left: 1rem;
+} */
+
+.rock {
+  background-color: #fff;
+  background-image: url(../../rock.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #dc2e4e;
+}
+
+.paper {
+  background-color: #fff;
+  background-image: url(../../paper.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #4865f4;
+}
+.scissors {
+  background-color: #fff;
+  background-image: url(../../scissors.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-color: #ec9e0e;
+}
+
+.youPicked {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.winner {
+  box-shadow: inset 0 5px 6px grey, 0 8px #e1e1e100,
+    0 0 0 50px hsl(0deg 0% 100% / 7%), 0 0 0 100px hsl(0deg 0% 100% / 5%),
+    0 0 0 150px hsl(0deg 0% 100% / 3%);
+}
