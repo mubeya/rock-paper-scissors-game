@@ -21,13 +21,13 @@ function ResultScore() {
 
   return (
     <div className={style.game}>
-      {score === 1 || score === -1 ? (
+      {score === 3 || score === -3 ? (
         <GameOver gameScore={score} />
       ) : (
         <>
           <div className={style.user}>
             <p className={style.youPicked}>YOU PICKED</p>
-            {counter === 0 && result === "YOU WIN" ? (
+            {counter === 0 && result === "YOU WON" ? (
               <button
                 className={`${style.btn} ${style[choice]} ${style.winner}`}></button>
             ) : (
@@ -60,7 +60,7 @@ function ResultScore() {
                 </div>
                 <div>
                   <p className={style.housePicked}>THE HOUSE PICKED</p>
-                  {result === "YOU LOSE" ? (
+                  {result === "YOU LOST" ? (
                     <button
                       className={`${style.btn} ${style[pcChoice]} ${style.winner}`}></button>
                   ) : (

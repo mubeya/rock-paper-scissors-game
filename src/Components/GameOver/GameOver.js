@@ -5,7 +5,7 @@ function GameOver({ gameScore }) {
 
   return (
     <div>
-      {gameScore === 1 ? (
+      {gameScore === 3 ? (
         <p className={style.gameResult}>YOU WON THE GAME</p>
       ) : (
         <p className={style.gameResult}>YOU LOST THE GAME</p>
