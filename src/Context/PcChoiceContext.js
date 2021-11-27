@@ -31,10 +31,10 @@ export const PcChoiceProvider = ({ children }) => {
           setResult("DRAW");
         } else if (pcChoice === "paper") {
           setScore(score - 1);
-          setResult("YOU LOSE");
+          setResult("YOU LOST");
         } else if (pcChoice === "scissors") {
           setScore(score + 1);
-          setResult("YOU WIN");
+          setResult("YOU WON");
         }
       } else if (choice === "paper") {
         if (pcChoice === "paper") {
@@ -42,10 +42,10 @@ export const PcChoiceProvider = ({ children }) => {
           setResult("DRAW");
         } else if (pcChoice === "scissors") {
           setScore(score - 1);
-          setResult("YOU LOSE");
+          setResult("YOU LOST");
         } else if (pcChoice === "rock") {
           setScore(score + 1);
-          setResult("YOU WIN");
+          setResult("YOU WON");
         }
       } else if (choice === "scissors") {
         if (pcChoice === "scissors") {
@@ -53,10 +53,10 @@ export const PcChoiceProvider = ({ children }) => {
           setResult("DRAW");
         } else if (pcChoice === "rock") {
           setScore(score - 1);
-          setResult("YOU LOSE");
+          setResult("YOU LOST");
         } else if (pcChoice === "paper") {
           setScore(score + 1);
-          setResult("YOU WIN");
+          setResult("YOU WON");
         }
       }
     }, 3000);
