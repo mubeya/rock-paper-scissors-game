@@ -1,0 +1,16 @@
+.gameResult {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.playGame {
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #a5231a;
+}

@@ -1,20 +1,18 @@
+import style from "./style.module.css";
+
 function GameOver({ gameScore }) {
   console.log(gameScore);
 
   return (
     <div>
       {gameScore === 1 ? (
-        <div>
-          {" "}
-          <p>YOU WIN THE GAME</p>
-          <a href='/'>PLAY AGAIN</a>
-        </div>
+        <p className={style.gameResult}>YOU WON THE GAME</p>
       ) : (
-        <div>
-          <p>YOU LOSE THE GAME</p>
-          <a href='/'>PLAY AGAIN</a>
-        </div>
+        <p className={style.gameResult}>YOU LOST THE GAME</p>
       )}
+      <a className={style.playGame} href='/'>
+        PLAY AGAIN
+      </a>
     </div>
   );
 }
