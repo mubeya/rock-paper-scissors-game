@@ -34,14 +34,12 @@ function ResultScore() {
               <button className={`${style.btn} ${style[choice]}`}></button>
             )}
           </div>
-          <div className={style.resultBtn}>
+          <div style={{ textAlign: "center", display: "flex" }}>
             {counter !== 0 ? (
-              <>
-                <div>
-                  <p className={style.housePicked}>THE HOUSE PICKED</p>
-                  <button className={style.btn}>{counter}</button>
-                </div>
-              </>
+              <div className={style.resultText}>
+                <p className={style.housePicked}>THE HOUSE PICKED</p>
+                <button className={style.btn}>{counter}</button>
+              </div>
             ) : (
               <>
                 <div className={style.resultText}>
@@ -58,7 +56,7 @@ function ResultScore() {
                     PLAY AGAIN
                   </Link>
                 </div>
-                <div>
+                <div style={{ textAlign: "center" }}>
                   <p className={style.housePicked}>THE HOUSE PICKED</p>
                   {result === "YOU LOST" ? (
                     <button

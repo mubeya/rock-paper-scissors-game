@@ -1,6 +1,6 @@
 body {
   font-family: Barlow Semi Condensed, sans-serif;
-  color: #fff;
+  color: #fff !important;
   background: radial-gradient(circle, #f44336, #961d14);
   text-align: center;
   box-sizing: border-box;

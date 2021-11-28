@@ -1,10 +1,8 @@
 import style from "./style.module.css";
 
 function GameOver({ gameScore }) {
-  console.log(gameScore);
-
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       {gameScore === 3 ? (
         <p className={style.gameResult}>YOU WON THE GAME</p>
       ) : (

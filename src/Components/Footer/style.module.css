@@ -2,3 +2,24 @@
   font-size: 1rem;
   font-weight: 600;
 }
+
+.footerRules {
+  position: absolute;
+  bottom: 1rem;
+  padding: 7px 25px;
+  right: 1rem;
+  border-radius: 0.4rem;
+  border: 2px solid #fff;
+  color: #fff;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modalBody {
+  text-align: center;
+}
+
+.modalTitle {
+  color: red;
+}
