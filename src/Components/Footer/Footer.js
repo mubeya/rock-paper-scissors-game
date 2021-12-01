@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { usePcChoice } from "../../Context/PcChoiceContext";
 import rules from "../../image-rules.svg";
-import close from "../../icon-close.svg";
 import style from "./style.module.css";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 function Footer() {
   const { matchResults } = usePcChoice();

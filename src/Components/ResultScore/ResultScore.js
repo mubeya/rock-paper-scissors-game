@@ -12,6 +12,8 @@ function ResultScore() {
     counter,
     setCounter,
     choice,
+    setChoice,
+    setPcChoice,
     score,
   } = usePcChoice();
 
@@ -52,6 +54,8 @@ function ResultScore() {
                     onClick={() => {
                       addMatchResults();
                       setCounter(3);
+                      setPcChoice("");
+                      setChoice("");
                     }}>
                     PLAY AGAIN
                   </Link>
