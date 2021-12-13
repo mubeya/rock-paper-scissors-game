@@ -49,7 +49,7 @@ function ResultScore() {
                     {result}
                   </p>
                   <Link
-                    to='/'
+                    to='/home'
                     className={style.playAgain}
                     onClick={() => {
                       addMatchResults();

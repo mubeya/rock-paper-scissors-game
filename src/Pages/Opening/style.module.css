@@ -1,0 +1,34 @@
+.openingPage {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eeebdd;
+}
+
+h1 {
+  margin-bottom: 1.7rem !important;
+  color: #fff7ae;
+  font-weight: bold !important;
+}
+
+.startBtn {
+  background-color: white;
+  margin: 1.7rem;
+  padding: 0.4rem 1.7rem;
+  color: #da392d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.rulesDiv {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.rulesImg {
+  margin-top: 2rem;
+  width: 45%;
+}
